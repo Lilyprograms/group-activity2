@@ -5,15 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .joyce{
-    background-color: white;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    flex: 200px;
-    width: 100%;
-    /* max-width: 250px; */
-    padding: 20px;
-    /* align-items: stretch; */
+    margin: auto;
+    width: 85%;
 }
 .joyce:hover{
     transform: translate(-6px);
@@ -29,25 +23,23 @@
 .module{
     background-color: #ffff
 }
-.container{
-padding-left: 15px;
-padding-right: 15px;
-margin-right: auto;
-margin-left: auto;
-}
 .Ideas_and_Concepts{
+    width: 25%;
     margin: 20px;
     text-align: center;
 }
 .Designs_and_Interfaces{
+    width: 25%;
     margin: 20px;
     text-align: center;
 }
 .Coding_and_Development{
+    width: 25%;
     margin: 20px;
     text-align: center;
 }
 .Dedicated_Support{
+    width: 25%;
     margin: 20px;
     text-align: center;
 }
@@ -59,4 +51,10 @@ margin-left: auto;
 }
 .support-img{
     width: 50px;
+}
+.capture-img{
+    width: 50px;
+}
+.features-title{
+    padding-bottom: 10px;
 }
