@@ -4,3 +4,38 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.ibukun_work {
+    display: flex;
+    width: 100%;
+}
+.column1{
+    width: 50%;
+    height: 10px;
+    font-family: cursive;
+}
+.column2{
+    width: 50%;
+    font-family: cursive;
+    font-size: medium;
+}
+.image{
+    width: 100%;
+    height: 500px;
+}
+.text{
+    margin-bottom: 30px;
+    margin-left: 7px;
+    font-family: serif;
+}
+.txt{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-family: 'Arial Narrow';
+}
+.tt {
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+.tpt{
+    margin-left: 7px;
+}
