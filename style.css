@@ -4,3 +4,50 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.joyce{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex: 200px;
+    width: 100%;
+    /* max-width: 250px; */
+    padding: 20px;
+    /* align-items: stretch; */
+}
+.joyce:hover{
+    transform: translate(-6px);
+}
+.joyce h3{
+    margin-top: 15px;
+    font-size: 1.3em;
+    color: black;
+}
+.joyce p{
+    font-size: 0.9em;
+}
+.module{
+    background-color: #ffff
+}
+.container{
+padding-left: 15px;
+padding-right: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.Ideas_and_Concepts{
+    margin: 20px;
+    text-align: center;
+}
+.Designs_and_Interfaces{
+    margin: 20px;
+    text-align: center;
+}
+.Coding_and_Development{
+    margin: 20px;
+    text-align: center;
+}
+.Dedicated_Support{
+    margin: 20px;
+    text-align: center;
+}
