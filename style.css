@@ -104,6 +104,7 @@
   display: flex;
   margin: auto;
   width: 85%;
+  padding: 100px 0;
 }
 .joyce h3 {
   margin-top: 15px;
@@ -150,4 +151,43 @@
 }
 .features-title {
   padding-bottom: 10px;
+}
+.ibukun_work {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+.column1{
+    width: 50%;
+    font-family: cursive;
+}
+.column2{
+    width: 50%;
+    font-family: cursive;
+    font-size: medium;
+    align-self: center;
+}
+.image{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.text{
+    margin-bottom: 30px;
+    margin-left: 7px;
+    font-family: serif;
+}
+.txt{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-family: 'Arial Narrow';
+}
+.tt {
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+.tpt{
+    margin-left: 7px;
 }
