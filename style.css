@@ -1,6 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner__container {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(./images/agency_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.banner {
+  width: 70%;
+  margin: 0 auto;
+}
+.banner__nav {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.banner__nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.banner_right {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.banner_left a {
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.banner_right li a {
+  color: #ffffffb3;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.banner {
+  min-height: 860px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner__content {
+  color: #fff;
+  text-align: center;
+}
+.banner__content h4 {
+  padding: 50px 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.banner__content h1 {
+  margin-bottom: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+.banner__content button {
+  padding: 10px 40px;
+  font-size: 11px;
+  background: none;
+  border: 1px solid #dedede;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+.banner__content button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.banner_subTitle::before {
+  content: "Flexible";
+  animation: showText 8s infinite;
+  -webkit-animation: showText 8s infinite;
+}
+
+@keyframes showText {
+  0% {
+    content: "Flexible";
+  }
+  30% {
+    content: "Easy";
+  }
+  75% {
+    content: "Simple";
+  }
 }
