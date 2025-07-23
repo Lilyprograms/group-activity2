@@ -100,3 +100,54 @@
     content: "Simple";
   }
 }
+.joyce {
+  display: flex;
+  margin: auto;
+  width: 85%;
+}
+.joyce h3 {
+  margin-top: 15px;
+  font-size: 1.3em;
+  color: black;
+}
+.joyce p {
+  font-size: 0.9em;
+}
+.module {
+  background-color: #ffff;
+}
+.Ideas_and_Concepts {
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+}
+.Designs_and_Interfaces {
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+}
+.Coding_and_Development {
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+}
+.Dedicated_Support {
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+}
+.light-img {
+  width: 50px;
+}
+.school-img {
+  width: 50px;
+}
+.support-img {
+  width: 50px;
+}
+.capture-img {
+  width: 50px;
+}
+.features-title {
+  padding-bottom: 10px;
+}
