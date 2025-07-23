@@ -444,9 +444,6 @@
   cursor: pointer;
   color: #fff;
 }
-.jerry2 {
-  /* padding: 20px; */
-}
 .icon {
   display: flex;
   gap: 20px;
@@ -521,6 +518,10 @@
   text-align: center;
   margin: auto;
 }
+.george {
+    width: 80%;
+    margin: 0 auto;
+}
 .iconic {
   width: 30px;
   padding: 5px;
@@ -529,4 +530,40 @@
   border-radius: 999px;
   font-weight: 500;
   color: #fff;
+}
+
+.img_sect{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    font-weight: 300;
+}
+.paragraph{
+    display: flex;
+    text-align: center;
+    color: #111;
+    opacity: 0.5s;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    margin: auto;
+}
+.image_container{
+   padding: 50px 0;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+}
+.image_sect{
+    width: 100%;
+    display: flex;
+}
+.image1{
+    width: 33.33%;
+}
+.image2{
+    width: 35.33%;
+}
+.image3{
+    width: 31.33%;
 }
